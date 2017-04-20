@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/_Scenes/MainMenu.unity
-=======
-- path: Assets/_Scenes/BeachScene.unity
->>>>>>> 33b8829730b5d2c73388526a307b89a614ad5190
   isLoaded: 1
   isActive: 1
