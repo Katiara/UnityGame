@@ -13,11 +13,8 @@ public class playerController : MonoBehaviour {
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
-<<<<<<< HEAD
 		carrotnum = 0;
-=======
 		tempPos = transform.position;
->>>>>>> ed4ba59d70ccab881c26f903fbc033ed7c91d7af
 	}
 
 	void FixedUpdate ()
@@ -44,7 +41,6 @@ public class playerController : MonoBehaviour {
 		rb.MovePosition (transform.position + movement);
 	}
 
-<<<<<<< HEAD
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag ("Collect")) 
@@ -53,8 +49,8 @@ public class playerController : MonoBehaviour {
 			carrotnum = carrotnum + 1;
 		}
 	}
-}
-=======
+
+
 	//This section turns the Player relative to the camera
 	void Turn()
 	{
@@ -73,4 +69,3 @@ public class playerController : MonoBehaviour {
 
 	}
 }
->>>>>>> ed4ba59d70ccab881c26f903fbc033ed7c91d7af
