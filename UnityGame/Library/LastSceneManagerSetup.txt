@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/ControlMenu.unity
+- path: Assets/_Scenes/HorseGame.unity
   isLoaded: 1
   isActive: 1
