@@ -19,12 +19,13 @@ public class playerController : MonoBehaviour {
 		float moveVertical = Input.GetAxisRaw ("Vertical");
 
 		//Move player around scene
-		//Move(moveHorizontal, moveVertical);
+		Move(moveHorizontal, moveVertical);
 
 		Turn();
 	}
+
 	 //This section moves the Player
-	/*void Move (float mH, float mV)
+	void Move (float mH, float mV)
 	{
 		//Set movement based on axis input
 		movement.Set(mH, 0f, mV);
@@ -34,28 +35,23 @@ public class playerController : MonoBehaviour {
 
 		// Move the player to it's current position plus the movement.
 		rb.MovePosition (transform.position + movement);
-	}*/
+	}
 
 	//This section turns the Player relative to the camera
 	//To do this we need to get the CAMERA Rotaion Y value and change the Rotation of the player to that
 	void Turn()
 	{
-		float move = 1;
-		if(Input.GetKey(KeyCode.W))
+		//WORKS
+		if(Input.GetKey(KeyCode.D))
 		{
-		
-			movement.Set (0, 0, 0);
 			rb.MovePosition (transform.position + movement);
+			transform.Rotate (Vector3.up * speed * Time.deltaTime); //Turn in the same speed as move
+		}
 
-			if (move > 0 && move < 170)
-			{
-				transform.Rotate (0, move, 0); //Vector3.right * Time.deltaTime
-				move++;
-			} 
-			else 
-			{
-				move = 1;
-			}
+		if(Input.GetKey(KeyCode.A))
+		{
+			rb.MovePosition (transform.position + movement);
+			transform.Rotate (Vector3.down * speed * Time.deltaTime); //Turn in the same speed as move
 		}
 
 	}
