@@ -36,4 +36,12 @@ public class playerController : MonoBehaviour {
 		// Move the player to it's current position plus the movement.
 		rb.MovePosition (transform.position + movement);
 	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag ("Collect")) 
+		{
+			other.gameObject.SetActive (false);
+		}
+	}
 }
