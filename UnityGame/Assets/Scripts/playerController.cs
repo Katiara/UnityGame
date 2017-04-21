@@ -7,10 +7,12 @@ public class playerController : MonoBehaviour {
 	public float speed;
 	Vector3 movement;
 	private Rigidbody rb;
+	private int carrotnum;
 
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
+		carrotnum = 0;
 	}
 
 	void FixedUpdate ()
@@ -42,6 +44,7 @@ public class playerController : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Collect")) 
 		{
 			other.gameObject.SetActive (false);
+			carrotnum = carrotnum + 1;
 		}
 	}
 }
