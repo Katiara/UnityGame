@@ -6,11 +6,13 @@ public class playerController : MonoBehaviour {
 
 	public float speed;
 	Vector3 movement;
+	Vector3 tempPos;
 	private Rigidbody rb;
 
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
+		tempPos = transform.position;
 	}
 
 	void FixedUpdate ()
@@ -38,20 +40,19 @@ public class playerController : MonoBehaviour {
 	}
 
 	//This section turns the Player relative to the camera
-	//To do this we need to get the CAMERA Rotaion Y value and change the Rotation of the player to that
 	void Turn()
 	{
 		//WORKS
 		if(Input.GetKey(KeyCode.D))
 		{
-			rb.MovePosition (transform.position + movement);
 			transform.Rotate (Vector3.up * speed * Time.deltaTime); //Turn in the same speed as move
+			rb.MovePosition (transform.position + movement);
 		}
 
 		if(Input.GetKey(KeyCode.A))
 		{
-			rb.MovePosition (transform.position + movement);
 			transform.Rotate (Vector3.down * speed * Time.deltaTime); //Turn in the same speed as move
+			rb.MovePosition (transform.position + movement);
 		}
 
 	}
