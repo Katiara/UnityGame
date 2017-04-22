@@ -54,7 +54,9 @@ public class playerController : MonoBehaviour {
 	{
 		if (other.gameObject.CompareTag ("Collect")) 
 		{
+			//Deactivate the carrot so you cannot collect the same carrot twice
 			other.gameObject.SetActive (false);
+			//Add one to counter and set counter text
 			carrotnum = carrotnum + 1;
 			SetCountText ();
 		}
@@ -65,6 +67,7 @@ public class playerController : MonoBehaviour {
 	void SetCountText()
 	{
 		countText.text = "Carrots:" + carrotnum.ToString ();
+		//When all carrots collected new message appears and old disappears
 		if (carrotnum >= 5) 
 		{
 			winText.text = "All carrots collected";
