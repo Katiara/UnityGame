@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerController : MonoBehaviour {
 
@@ -9,11 +10,17 @@ public class playerController : MonoBehaviour {
 	Vector3 tempPos;
 	private Rigidbody rb;
 	private int carrotnum;
+	public Text countText;
+	public Text winText;
 
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
+		//Carrot collection and counter code
 		carrotnum = 0;
+		SetCountText ();
+		winText.text = "";
+			
 		tempPos = transform.position;
 	}
 
@@ -41,12 +48,27 @@ public class playerController : MonoBehaviour {
 		rb.MovePosition (transform.position + movement);
 	}
 
+	//When player hits carrot, carrot will disappear
+	//Carrot counter will be increased
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag ("Collect")) 
 		{
 			other.gameObject.SetActive (false);
 			carrotnum = carrotnum + 1;
+			SetCountText ();
+		}
+	}
+
+	//For carrot text to show how many carrots have been collected
+	//To show all carrots collected message too
+	void SetCountText()
+	{
+		countText.text = "Carrots:" + carrotnum.ToString ();
+		if (carrotnum >= 5) 
+		{
+			winText.text = "All carrots collected";
+			countText.text = "";
 		}
 	}
 
