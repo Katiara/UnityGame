@@ -66,7 +66,7 @@ public class playerController : MonoBehaviour {
 	//To show all carrots collected message too
 	void SetCountText()
 	{
-		countText.text = "Carrots:" + carrotnum.ToString ();
+		countText.text = "Carrots: " + carrotnum.ToString () + " / 5";
 		//When all carrots collected new message appears and old disappears
 		if (carrotnum >= 5) 
 		{
