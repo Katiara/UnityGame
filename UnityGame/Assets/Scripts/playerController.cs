@@ -7,7 +7,6 @@ public class playerController : MonoBehaviour {
 
 	public float speed;
 	Vector3 movement;
-	Vector3 tempPos;
 	private Rigidbody rb;
 	private int carrotnum;
 	public Text countText;
@@ -20,8 +19,6 @@ public class playerController : MonoBehaviour {
 		carrotnum = 0;
 		SetCountText ();
 		winText.text = "";
-			
-		tempPos = transform.position;
 	}
 
 	void FixedUpdate ()
