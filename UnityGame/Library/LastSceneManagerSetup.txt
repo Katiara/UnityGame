@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/iceland.unity
+- path: Assets/_Scenes/FairyForestScene.unity
   isLoaded: 1
   isActive: 1
