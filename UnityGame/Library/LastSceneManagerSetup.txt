@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/_Scenes/HorseGame.unity
-=======
-- path: Assets/_Scenes/iceland.unity
->>>>>>> 63db72891b7e19bf002a9490a9551e4bad5d76f3
   isLoaded: 1
   isActive: 1
