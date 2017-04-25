@@ -16,6 +16,7 @@ public class playerController : MonoBehaviour {
 	private int carrotnum;
 	public Text countText;
 	public Text allText;
+	//public Text horseThing;
 
 	void Start ()
 	{
@@ -57,8 +58,21 @@ public class playerController : MonoBehaviour {
 			//Add one to counter and set counter text
 			carrotnum = carrotnum + 1;
 			SetCountText ();
+				/*if (carrotnum >= 5) 
+				{
+					other.gameObject.SetActive (false);
+				}*/
+		}
+
+		if (other.gameObject.CompareTag ("Horse")) 
+		{
+			if (carrotnum >= 5) 
+			{
+				other.gameObject.SetActive (false);
+			}
 		}
 	}
+		
 
 	//For carrot text to show how many carrots have been collected
 	//To show all carrots collected message too
@@ -68,9 +82,10 @@ public class playerController : MonoBehaviour {
 		//When all carrots collected new message appears and old disappears
 		if (carrotnum >= 5) 
 		{
-			allText.text = "All carrots collected";
+			allText.text = "Collect Horse";
 			countText.text = "";
 		}
+
 	}
 
 }

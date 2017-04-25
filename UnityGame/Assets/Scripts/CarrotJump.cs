@@ -11,6 +11,4 @@ public class CarrotJump : MonoBehaviour {
 
 	}
 
-		
-
 }
