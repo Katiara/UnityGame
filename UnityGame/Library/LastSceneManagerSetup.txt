@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/_Scenes/GlindaTalk.unity
-=======
-<<<<<<< HEAD
-- path: Assets/_Scenes/BeachScene.unity
-=======
 - path: Assets/_Scenes/HorseGame.unity
->>>>>>> 35a98d445565a80fe1d1da89763c952809183d64
->>>>>>> 142283014c8faadc79861b55b6abde27b6259965
   isLoaded: 1
   isActive: 1
