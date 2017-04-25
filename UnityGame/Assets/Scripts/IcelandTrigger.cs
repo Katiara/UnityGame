@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class IcelandTrigger : MonoBehaviour {
 
 	public string levelToLoad;
+	public bool finished = false;
 
 	//Use this for initialization
 	void Start () {
@@ -21,6 +22,7 @@ public class IcelandTrigger : MonoBehaviour {
 	{
 		if (other.tag == "Player") 
 		{
+			finished = true;
 			SceneManager.LoadScene(levelToLoad);
 		}
 	}
