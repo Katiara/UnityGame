@@ -15,12 +15,13 @@ public class ViewEnCam : MonoBehaviour {
 
 	void Start ()
 	{
+		//This places the camera at a certain distance to the player
 		offset = transform.position - player.transform.position;
 	}
 
 	void LateUpdate ()
 	{
-		transform.position = player.transform.position + offset;
+		transform.position = player.transform.position + offset ; //
 
 		//Use +=  ,  -= to accumulate on each update
 		vert += Hspeed * Input.GetAxis("Mouse X");
