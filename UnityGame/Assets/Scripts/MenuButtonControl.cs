@@ -5,30 +5,44 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtonControl : MonoBehaviour {
 
-
-	//Button that Begins the game
 	public void StartGame()
 	{
+		//Loads Forest Scene
 		SceneManager.LoadScene(0);
 
 	}
 
-	//Button that switches to Control Info Screen
+	public void LoadIceland()
+	{
+		//Loads IceLand Scene
+		SceneManager.LoadScene(1);
+
+	}
+
+	public void LoadBeachland()
+	{
+		//Loads Beach Scene
+		SceneManager.LoadScene(2);
+
+	}
+
 	public void Controls()
 	{
+		//Loads Controls Scene
 		SceneManager.LoadScene(4);
 
+	}
+		
+	public void ReturnToMainMenu()
+	{
+		//Loads Menu Scene
+		SceneManager.LoadScene(3);
 	}
 
 	//Button that quits Game 
 	public void Quit()
 	{
-		Application.Quit();
-	}
 
-	//Button that returns to Main Menu
-	public void ReturnToMainMenu()
-	{
-		SceneManager.LoadScene(3);
+		Application.Quit();
 	}
 }
