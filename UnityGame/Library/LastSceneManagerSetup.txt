@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/_Scenes/BeachScene.unity
-=======
 - path: Assets/_Scenes/HorseGame.unity
->>>>>>> 9fa0fefcf2b2a46b20f97a759991b27252c1a500
   isLoaded: 1
   isActive: 1
