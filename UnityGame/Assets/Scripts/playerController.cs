@@ -15,7 +15,7 @@ public class playerController : MonoBehaviour {
 	//In game Text
 	private int carrotnum;
 	public Text countText;
-	public Text winText;
+	public Text allText;
 
 	void Start ()
 	{
@@ -24,7 +24,7 @@ public class playerController : MonoBehaviour {
 		//Carrot collection and counter code
 		carrotnum = 0;
 		SetCountText ();
-		winText.text = "";
+		allText.text = "";
 	}
 
 	void FixedUpdate ()
@@ -68,7 +68,7 @@ public class playerController : MonoBehaviour {
 		//When all carrots collected new message appears and old disappears
 		if (carrotnum >= 5) 
 		{
-			winText.text = "All carrots collected";
+			allText.text = "All carrots collected";
 			countText.text = "";
 		}
 	}
