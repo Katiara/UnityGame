@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/_Scenes/iceland.unity
-=======
-- path: Assets/_Scenes/MainMenu.unity
->>>>>>> 059cb1625356ae44f4161b128291c8452b23c992
+- path: Assets/_Scenes/GlindaTalk.unity
   isLoaded: 1
   isActive: 1

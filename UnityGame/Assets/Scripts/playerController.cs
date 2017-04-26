@@ -31,7 +31,7 @@ public class playerController : MonoBehaviour {
 		//Carrot collection and counter code
 		carrotnum = 0;
 		SetCountText ();
-		allText.text = "";
+		allText.text = "Collect all carrots to get horse";
 
 	}
 
@@ -71,13 +71,11 @@ public class playerController : MonoBehaviour {
 		{
 			if (carrotnum >= 5) 
 			{
-<<<<<<< HEAD
 				SceneManager.LoadScene (levelToLoad);
-=======
+
 				//Next set of text for glinda is now set
 				//finished = true;
 				other.gameObject.SetActive (false);
->>>>>>> 059cb1625356ae44f4161b128291c8452b23c992
 			}
 		}
 	}
