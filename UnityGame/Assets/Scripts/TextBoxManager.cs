@@ -19,8 +19,6 @@ public class TextBoxManager : MonoBehaviour {
 
 	void Start()
 	{
-		//Player = findObjectOfType<playerController> ();
-
 		//Check if text file is there
 		if (textFile != null)
 		{

@@ -21,7 +21,7 @@ public class GlindaTrigger : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		
-		if (other.tag == "Player" && finished == true ) //&& finished == true
+		if (other.tag == "Player") //&& finished == true
 		{
 			//Load Glindas first scene
 			SceneManager.LoadScene(GlindaToLoad);
