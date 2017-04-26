@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/FairyForestScene.unity
+=======
+- path: Assets/_Scenes/GlindaTalk.unity
+>>>>>>> ceffbc31db1dda6e010f211042b5404a59ca67fb
   isLoaded: 1
   isActive: 1

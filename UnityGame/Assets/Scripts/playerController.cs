@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))] //Only will work with character controller
 
@@ -12,11 +13,13 @@ public class playerController : MonoBehaviour {
 	public float rotationSpeed;
 	private CharacterController cc;
 
+	//Level load
+	public string levelToLoad;
+
 	//In game Text
 	private int carrotnum;
 	public Text countText;
 	public Text allText;
-	//public Text horseThing;
 
 	//Triggers for Glinda Text
 	public static bool finished = false;
@@ -28,7 +31,7 @@ public class playerController : MonoBehaviour {
 		//Carrot collection and counter code
 		carrotnum = 0;
 		SetCountText ();
-		allText.text = "";
+		allText.text = "Collect all carrots to get horse";
 
 	}
 
@@ -62,16 +65,14 @@ public class playerController : MonoBehaviour {
 			//Add one to counter and set counter text
 			carrotnum = carrotnum + 1;
 			SetCountText ();
-				/*if (carrotnum >= 5) 
-				{
-					other.gameObject.SetActive (false);
-				}*/
 		}
 
 		if (other.gameObject.CompareTag ("Horse")) 
 		{
 			if (carrotnum >= 5) 
 			{
+				SceneManager.LoadScene (levelToLoad);
+
 				//Next set of text for glinda is now set
 				//finished = true;
 				other.gameObject.SetActive (false);
