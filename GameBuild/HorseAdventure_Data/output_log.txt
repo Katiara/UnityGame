@@ -21,22 +21,22 @@ Platform assembly: C:\Users\sastr\OneDrive\Documents\Computer Science\Year 2\OOP
 Loading C:\Users\sastr\OneDrive\Documents\Computer Science\Year 2\OOP\Assignment 3\GameBuild\HorseAdventure_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\sastr\OneDrive\Documents\Computer Science\Year 2\OOP\Assignment 3\GameBuild\HorseAdventure_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\sastr\OneDrive\Documents\Computer Science\Year 2\OOP\Assignment 3\GameBuild\HorseAdventure_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.043 seconds
+- Completed reload, in  0.063 seconds
 Platform assembly: C:\Users\sastr\OneDrive\Documents\Computer Science\Year 2\OOP\Assignment 3\GameBuild\HorseAdventure_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\sastr\OneDrive\Documents\Computer Science\Year 2\OOP\Assignment 3\GameBuild\HorseAdventure_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.330863 ms
+UnloadTime: 2.132147 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2ed0 -> priority: 1 
-  Thread -> id: 2efc -> priority: 1 
+  Thread -> id: 1a48 -> priority: 1 
+  Thread -> id: 24a8 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.315059 ms
+UnloadTime: 6.020738 ms
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1162.
-Total: 0.871110 ms (FindLiveObjects: 0.054123 ms CreateObjectMapping: 0.022123 ms MarkObjects: 0.165925 ms  DeleteObjects: 0.626567 ms)
+Total: 0.759308 ms (FindLiveObjects: 0.075851 ms CreateObjectMapping: 0.046222 ms MarkObjects: 0.183308 ms  DeleteObjects: 0.448789 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at playerController.SetCountText () [0x00000] in <filename unknown>:0 
@@ -45,10 +45,230 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.996641 ms
+UnloadTime: 4.987257 ms
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 469.
-Total: 0.836740 ms (FindLiveObjects: 0.023308 ms CreateObjectMapping: 0.013432 ms MarkObjects: 0.169481 ms  DeleteObjects: 0.630123 ms)
+Total: 2.630715 ms (FindLiveObjects: 0.065975 ms CreateObjectMapping: 0.054913 ms MarkObjects: 0.521876 ms  DeleteObjects: 1.985974 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
 
 IndexOutOfRangeException: Array index is out of range.
   at TextBoxManager.Update () [0x00000] in <filename unknown>:0 
@@ -751,10 +971,28 @@ IndexOutOfRangeException: Array index is out of range.
 (Filename:  Line: -1)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.975702 ms
+UnloadTime: 3.925726 ms
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1162.
-Total: 0.928394 ms (FindLiveObjects: 0.055308 ms CreateObjectMapping: 0.021728 ms MarkObjects: 0.141827 ms  DeleteObjects: 0.709135 ms)
+Total: 2.838517 ms (FindLiveObjects: 0.150123 ms CreateObjectMapping: 0.088493 ms MarkObjects: 0.455901 ms  DeleteObjects: 2.142813 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerController.SetCountText () [0x00000] in <filename unknown>:0 
+  at playerController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.654220 ms
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 469.
+Total: 3.042369 ms (FindLiveObjects: 0.082172 ms CreateObjectMapping: 0.081382 ms MarkObjects: 0.632493 ms  DeleteObjects: 2.244739 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.768492 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1162.
+Total: 3.075159 ms (FindLiveObjects: 0.203061 ms CreateObjectMapping: 0.107061 ms MarkObjects: 0.508444 ms  DeleteObjects: 2.254616 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at playerController.SetCountText () [0x00000] in <filename unknown>:0 
@@ -763,16 +1001,16 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.849678 ms
+UnloadTime: 1.844542 ms
 
 Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 464.
-Total: 1.580246 ms (FindLiveObjects: 0.045432 ms CreateObjectMapping: 0.014617 ms MarkObjects: 0.241777 ms  DeleteObjects: 1.278024 ms)
+Total: 1.473184 ms (FindLiveObjects: 0.050172 ms CreateObjectMapping: 0.015802 ms MarkObjects: 0.261925 ms  DeleteObjects: 1.144888 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.508640 ms
+UnloadTime: 2.187850 ms
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1162.
-Total: 1.513085 ms (FindLiveObjects: 0.072296 ms CreateObjectMapping: 0.023703 ms MarkObjects: 0.174222 ms  DeleteObjects: 1.242073 ms)
+Total: 1.492542 ms (FindLiveObjects: 0.122469 ms CreateObjectMapping: 0.024888 ms MarkObjects: 0.184888 ms  DeleteObjects: 1.159900 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at playerController.SetCountText () [0x00000] in <filename unknown>:0 
@@ -781,16 +1019,16 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.066962 ms
+UnloadTime: 1.848888 ms
 
 Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 410.
-Total: 1.645826 ms (FindLiveObjects: 0.077037 ms CreateObjectMapping: 0.015802 ms MarkObjects: 0.227950 ms  DeleteObjects: 1.324246 ms)
+Total: 1.321480 ms (FindLiveObjects: 0.022913 ms CreateObjectMapping: 0.015012 ms MarkObjects: 0.156839 ms  DeleteObjects: 1.126320 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.018369 ms
+UnloadTime: 2.178369 ms
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1162.
-Total: 1.653727 ms (FindLiveObjects: 0.051753 ms CreateObjectMapping: 0.024098 ms MarkObjects: 0.173827 ms  DeleteObjects: 1.403258 ms)
+Total: 2.212344 ms (FindLiveObjects: 0.126814 ms CreateObjectMapping: 0.022123 ms MarkObjects: 0.182123 ms  DeleteObjects: 1.880888 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at playerController.SetCountText () [0x00000] in <filename unknown>:0 
@@ -799,16 +1037,16 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.901431 ms
+UnloadTime: 5.548639 ms
 
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 935.
-Total: 1.482666 ms (FindLiveObjects: 0.041876 ms CreateObjectMapping: 0.022518 ms MarkObjects: 0.209777 ms  DeleteObjects: 1.208098 ms)
+Total: 4.156837 ms (FindLiveObjects: 0.118123 ms CreateObjectMapping: 0.089678 ms MarkObjects: 0.600493 ms  DeleteObjects: 3.346171 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.452937 ms
+UnloadTime: 2.125431 ms
 
 Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 1162.
-Total: 1.924739 ms (FindLiveObjects: 0.088888 ms CreateObjectMapping: 0.024098 ms MarkObjects: 0.179357 ms  DeleteObjects: 1.631999 ms)
+Total: 1.847307 ms (FindLiveObjects: 0.095209 ms CreateObjectMapping: 0.022518 ms MarkObjects: 0.159209 ms  DeleteObjects: 1.569974 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at playerController.SetCountText () [0x00000] in <filename unknown>:0 
@@ -817,8 +1055,8 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.118715 ms
+UnloadTime: 4.786170 ms
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 469.
-Total: 0.931950 ms (FindLiveObjects: 0.042271 ms CreateObjectMapping: 0.015012 ms MarkObjects: 0.186074 ms  DeleteObjects: 0.688197 ms)
+Total: 2.407110 ms (FindLiveObjects: 0.063999 ms CreateObjectMapping: 0.054518 ms MarkObjects: 0.511209 ms  DeleteObjects: 1.776196 ms)
 

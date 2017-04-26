@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/_Scenes/iceland.unity
-=======
-- path: Assets/_Scenes/MainMenu.unity
->>>>>>> 634f2b4e5fc62c17034cca3e9e0d6b54436e6e33
+- path: Assets/_Scenes/endScene.unity
   isLoaded: 1
   isActive: 1
