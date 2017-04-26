@@ -21,6 +21,9 @@ public class playerController : MonoBehaviour {
 	public Text countText;
 	public Text allText;
 
+	//Triggers for Glinda Text
+	public static bool finished = false;
+
 	void Start ()
 	{
 		cc = GetComponent<CharacterController> ();
@@ -29,6 +32,7 @@ public class playerController : MonoBehaviour {
 		carrotnum = 0;
 		SetCountText ();
 		allText.text = "";
+
 	}
 
 	void FixedUpdate ()
@@ -67,7 +71,13 @@ public class playerController : MonoBehaviour {
 		{
 			if (carrotnum >= 5) 
 			{
+<<<<<<< HEAD
 				SceneManager.LoadScene (levelToLoad);
+=======
+				//Next set of text for glinda is now set
+				//finished = true;
+				other.gameObject.SetActive (false);
+>>>>>>> 059cb1625356ae44f4161b128291c8452b23c992
 			}
 		}
 	}

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GlindaTrigger : MonoBehaviour {
 
 	public string GlindaToLoad;
+	public bool finished;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +20,8 @@ public class GlindaTrigger : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.tag == "Player") 
+		
+		if (other.tag == "Player") //&& finished == true
 		{
 			//Load Glindas first scene
 			SceneManager.LoadScene(GlindaToLoad);

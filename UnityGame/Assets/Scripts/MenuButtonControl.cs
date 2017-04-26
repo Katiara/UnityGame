@@ -8,21 +8,21 @@ public class MenuButtonControl : MonoBehaviour {
 	public void StartGame()
 	{
 		//Loads Forest Scene
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene(1);
 
 	}
 
 	public void LoadIceland()
 	{
 		//Loads IceLand Scene
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(2);
 
 	}
 
 	public void LoadBeachland()
 	{
 		//Loads Beach Scene
-		SceneManager.LoadScene(2);
+		SceneManager.LoadScene(3);
 
 	}
 
@@ -36,7 +36,7 @@ public class MenuButtonControl : MonoBehaviour {
 	public void ReturnToMainMenu()
 	{
 		//Loads Menu Scene
-		SceneManager.LoadScene(3);
+		SceneManager.LoadScene(0);
 	}
 
 	//Button that quits Game 
