@@ -27,7 +27,8 @@ Talking to Glinda will also give you an option to end the game early.
 
 
 YouTube Video : 
-Here is a visual representaion of the game and how it works.
+Here is a visual representaion of the game and how it works:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPE2CwnB4qM" frameborder="0" allowfullscreen></iframe>
 
 
 Extras : 
