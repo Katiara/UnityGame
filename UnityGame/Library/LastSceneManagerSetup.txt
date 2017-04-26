@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/_Scenes/iceland.unity
-=======
-- path: Assets/_Scenes/HorseGame.unity
->>>>>>> d90e3daba990ccfab19bfef4738730f7585cc64e
+- path: Assets/_Scenes/GlindaTalk.unity
   isLoaded: 1
   isActive: 1

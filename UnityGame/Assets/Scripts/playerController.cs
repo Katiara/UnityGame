@@ -18,6 +18,9 @@ public class playerController : MonoBehaviour {
 	public Text allText;
 	//public Text horseThing;
 
+	//Triggers for Glinda Text
+	public static bool finished = false;
+
 	void Start ()
 	{
 		cc = GetComponent<CharacterController> ();
@@ -26,6 +29,7 @@ public class playerController : MonoBehaviour {
 		carrotnum = 0;
 		SetCountText ();
 		allText.text = "";
+
 	}
 
 	void FixedUpdate ()
@@ -68,6 +72,8 @@ public class playerController : MonoBehaviour {
 		{
 			if (carrotnum >= 5) 
 			{
+				//Next set of text for glinda is now set
+				//finished = true;
 				other.gameObject.SetActive (false);
 			}
 		}
